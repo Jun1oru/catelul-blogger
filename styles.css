@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+        90deg,
+        #e0d6b8,
+        #d9cca6,
+        #d1c294,
+        #c9b882
+    );
+}
+
+#nav-bar {
+    background: linear-gradient(
+        gray,
+        #d1c294
+    );
+}
+
+#nav-bar > ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-bar > ul > li:first-of-type {
+    position: relative;
+    float: left;
+}
+
+#nav-bar > ul > li > a {
+    text-decoration: none;
+    color: tomato;
+    padding: 1rem;
+}
